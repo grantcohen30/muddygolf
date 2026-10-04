@@ -244,7 +244,7 @@ const $ = id => document.getElementById(id);
 const mean = a => a.length ? a.reduce((x, y) => x + y, 0) / a.length : null;
 let RD_COURSE = null, RD_HOLE = null;
 const SITE_CFG = {"title": "MuddyGolf", "inbox": "grantcohen7+muddy@gmail.com"};
-const DATA_URL = "";
+const DATA_URL = "https://script.google.com/macros/s/AKfycbwPaQT3B5wMydCF1AEc-MHBph2eI6TBoqmzu4luzd6cHlJmUsvsNXJiNoSsmEpJwzUCeQ/exec?p=muddy";
 // MuddyGolf core: read 18Birdies scorecard emails and build the page's stats. Plain ES2019, no dependencies.
 // One source for the web page, the Google Apps Script and the tests (Python twin: tools/muddy.py).
 function parseEmail(text) {
